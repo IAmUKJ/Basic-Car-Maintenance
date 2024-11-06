@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "shouldTranslate" : false
     },
     "%@" : {
       "comment" : "Maintenance list item description 'Date' formatted",
@@ -49,6 +49,12 @@
             "value" : "%@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71,6 +77,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
+          }
+        }
+      }
+    },
+    "^[%lld contributions](inflect: true)" : {
+      "comment" : "the number of contributions by a contributor",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "^[%lld bijdragen](inflect: true)"
           }
         }
       }
@@ -123,7 +140,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "🦄 Mikaela Caron - Maintainer"
+            "value" : "🦄 Mikaela Caron - Beheerder"
           }
         },
         "pl" : {
@@ -164,6 +181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "درباره"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "over"
           }
         }
       }
@@ -222,7 +245,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toevogen"
+            "value" : "Toevoegen"
           }
         },
         "pl" : {
@@ -311,7 +334,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Onderhoud toevogen"
+            "value" : "Onderhoud toevoegen"
           }
         },
         "pl" : {
@@ -370,7 +393,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Meterstand toevogen"
+            "value" : "Kilometerstand toevoegen"
           }
         },
         "pl" : {
@@ -405,6 +428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جزئیات زیر را اضافه کنید"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg de informatie beneden toe"
           }
         }
       }
@@ -463,7 +492,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voertuig toevogen"
+            "value" : "Voertuig toevoegen"
           }
         },
         "pl" : {
@@ -611,7 +640,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voeg uw eerste kilometertellerstand toe"
+            "value" : "Voeg uw eerste kilometerstand toe"
           }
         },
         "pl" : {
@@ -653,6 +682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اضافه کردن"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toevoegen"
           }
         },
         "pl" : {
@@ -848,6 +883,12 @@
             "state" : "translated",
             "value" : "بازگشت"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terug"
+          }
         }
       }
     },
@@ -857,6 +898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "پایه"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basis"
           }
         }
       }
@@ -868,6 +915,12 @@
             "state" : "translated",
             "value" : "ماشین پایه"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standaard auto"
+          }
         }
       }
     },
@@ -878,6 +931,12 @@
             "state" : "translated",
             "value" : "ساخته شده با همکاری مشارکت‌کنندگان که به عملکرد بهتر برنامه کمک می‌کند."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebouwd samen met bijdragers die de functionaliteit van de app vergroten."
+          }
         }
       }
     },
@@ -887,6 +946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "آخرین وسیله نقلیه را نمی‌توان حذف کرد"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan laatste voertuig niet verwijderen"
           }
         },
         "pl" : {
@@ -997,6 +1062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "نگهداری ماشین"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto onderhoud"
           }
         }
       }
@@ -1212,7 +1283,14 @@
       }
     },
     "Color: %@" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleur: %@"
+          }
+        }
+      }
     },
     "Continue" : {
       "localizations" : {
@@ -1220,6 +1298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ادامه"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga verder"
           }
         }
       }
@@ -1954,6 +2038,12 @@
             "value" : "ویرایش شمارش کیلومتر شمار"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas kilometerstand aan"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1963,10 +2053,25 @@
       }
     },
     "Export" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporteer"
+          }
+        }
+      }
     },
     "Export Event" : {
-      "comment" : "Label for exporting maintenance events"
+      "comment" : "Label for exporting maintenance events",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporteer onderhoudsbeurt"
+          }
+        }
+      }
     },
     "Failed To Add Vehicle" : {
       "localizations" : {
@@ -2275,7 +2380,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Niet gelukt om evenement te verwijderen"
+            "value" : "Niet gelukt om onderhoudsbeurt te verwijderen"
           }
         },
         "pl" : {
@@ -2571,6 +2676,9 @@
         }
       }
     },
+    "Failed to Export Events" : {
+      "comment" : "Title for alert shown when there are no events to export for a vehicle"
+    },
     "Filter" : {
       "comment" : "Label for filtering on Dashboard view",
       "localizations" : {
@@ -2631,7 +2739,15 @@
       }
     },
     "For: %@" : {
-      "comment" : "the vehcile name is filled in here"
+      "comment" : "the vehcile name is filled in here",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor: %@"
+          }
+        }
+      }
     },
     "GitHub Repo" : {
       "comment" : "Link to the Basic Car Maintenance GitHub repo.",
@@ -2723,7 +2839,15 @@
       }
     },
     "Imperial" : {
-      "comment" : "Imperial unit system"
+      "comment" : "Imperial unit system",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empirisch"
+          }
+        }
+      }
     },
     "It's open source and anyone can contribute to it." : {
       "comment" : "Tells the user they can contribute to the codebase.",
@@ -2773,7 +2897,15 @@
       }
     },
     "Key" : {
-      "extractionState" : "manual"
+      "extractionState" : "manual",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleutel"
+          }
+        }
+      }
     },
     "Kilometers" : {
       "localizations" : {
@@ -2862,7 +2994,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kentekennummer"
+            "value" : "Kenteken"
           }
         },
         "pl" : {
@@ -2914,7 +3046,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Laden..."
+            "value" : "Laden…"
           }
         },
         "pl" : {
@@ -3072,7 +3204,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Merk"
+            "value" : "Bouwjaar"
           }
         },
         "pl" : {
@@ -3108,7 +3240,15 @@
       }
     },
     "Metric" : {
-      "comment" : "Metric unit system"
+      "comment" : "Metric unit system",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metrisch"
+          }
+        }
+      }
     },
     "Mileage: %lld %@" : {
       "localizations" : {
@@ -3116,6 +3256,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Mileage: %1$lld %2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbruik: %1$lld %2$@"
           }
         }
       }
@@ -3143,7 +3289,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mijlen"
+            "value" : "Kilometers"
           }
         },
         "pl" : {
@@ -3437,8 +3583,19 @@
         }
       }
     },
+    "No events to export for this vehicle." : {
+
+    },
     "No Name" : {
-      "extractionState" : "manual"
+      "extractionState" : "manual",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen naam"
+          }
+        }
+      }
     },
     "No results" : {
       "localizations" : {
@@ -3600,7 +3757,14 @@
       }
     },
     "Notes:" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities:"
+          }
+        }
+      }
     },
     "Odometer" : {
       "localizations" : {
@@ -3857,14 +4021,34 @@
             "state" : "translated",
             "value" : "متن باز"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
         }
       }
     },
     "Plate: %@" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenteken: %@"
+          }
+        }
+      }
     },
     "Preferred System" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorkeurssysteem"
+          }
+        }
+      }
     },
     "Preferred units" : {
       "comment" : "Label for units selected when adding an odometer reading",
@@ -4067,7 +4251,14 @@
       }
     },
     "Recorded On: %@" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgenomen op: %@"
+          }
+        }
+      }
     },
     "Report a Bug" : {
       "comment" : "Link to report a bug",
@@ -4248,7 +4439,15 @@
       }
     },
     "Search" : {
-      "comment" : "Prompt to search maintenance events"
+      "comment" : "Prompt to search maintenance events",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoeken"
+          }
+        }
+      }
     },
     "Select a vehicle" : {
       "comment" : "Picker for selecting a vehicle",
@@ -4322,10 +4521,24 @@
       }
     },
     "Select a Vehicle" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecteer een voertuig"
+          }
+        }
+      }
     },
     "Select the vehicle you want to export the maintenance events for:" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecteer het voertuig waarvan je de onderhoudsbeurten wil exporteren:"
+          }
+        }
+      }
     },
     "Settings" : {
       "comment" : "Label to display settings.",
@@ -4417,7 +4630,15 @@
       }
     },
     "Share" : {
-      "comment" : "Share the exported file in the share sheet"
+      "comment" : "Share the exported file in the share sheet",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel"
+          }
+        }
+      }
     },
     "Sign Out" : {
       "localizations" : {
@@ -4602,6 +4823,12 @@
             "state" : "translated",
             "value" : "جهت شروع روی + تپ کنید"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Druk op + om te beginnen"
+          }
         }
       }
     },
@@ -4750,6 +4977,12 @@
             "value" : "آخرین وسیله نقلیه را نمی‌توان حذف کرد. لطفا قبل از حدف آن، یک وسیله نقلیه جدید اضافه کنید."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het laatste voertuig kan niet verwijderd worden. Voeg een nieuw voertuig toe voordat je deze verwijdert."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4812,7 +5045,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De titel van het evenement"
+            "value" : "De titel van de onderhoudsbeurt"
           }
         },
         "pl" : {
@@ -5173,11 +5406,25 @@
             "state" : "translated",
             "value" : "کل مسافت پیموده شده را ردیابی و نمایش می‌دهد و به نگهداری به موقع کمک می‌کند."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houdt kilometerstand bij en geeft deze weer, zodat  onderhoudsbeurten op tijd gepland kunnen worden."
+          }
         }
       }
     },
     "Units" : {
-      "comment" : "Label to represent the options for measurement units"
+      "comment" : "Label to represent the options for measurement units",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eenheden"
+          }
+        }
+      }
     },
     "Update" : {
       "comment" : "Label for submit button on form to update an existing entry",
@@ -5341,6 +5588,12 @@
             "value" : "به‌روزرسانی اطلاعات وسیله نقلیه"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update voertuiginformatie"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5361,6 +5614,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "رابط کاربری دوستانه جهت کنترل کار های نگهداری ماشین"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruiksvriendelijke interface om auto onderhoudsbeurten bij te houden."
           }
         }
       }
@@ -5507,7 +5766,15 @@
       }
     },
     "Vehicle Details" : {
-      "comment" : "Label about vehicle details."
+      "comment" : "Label about vehicle details.",
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voertuigdetails"
+          }
+        }
+      }
     },
     "Vehicle License Plate Number" : {
       "localizations" : {
@@ -6037,7 +6304,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voertuig"
+            "value" : "Voertuigen"
           }
         },
         "pl" : {
@@ -6102,7 +6369,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voertuigen"
+            "value" : "Voertuig"
           }
         },
         "pl" : {
@@ -6186,6 +6453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "버전 %@ (%@)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versie %@ (%@)"
           }
         },
         "pl" : {
@@ -6285,7 +6558,14 @@
       }
     },
     "VIN: %@" : {
-
+      "localizations" : {
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VIN: %@"
+          }
+        }
+      }
     },
     "Welcome 🥳" : {
       "localizations" : {
@@ -6293,6 +6573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خوش آمدید 🥳"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom 🥳"
           }
         }
       }
@@ -6303,6 +6589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خوش آمدید به"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom bij"
           }
         }
       }
@@ -6384,6 +6676,12 @@
             "state" : "translated",
             "value" : "شما می‌توانید اطلاعات بیشتری را درباره وسیله نقلیه در بخش ‘تنظیمات’ ویرایش کنید."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kunt meer voertuiggegevens bewerken in het tabblad ‘Instellingen’."
+          }
         }
       }
     },
@@ -6393,6 +6691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "وسیله نقلیه شما"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jouw voertuig"
           }
         }
       }
