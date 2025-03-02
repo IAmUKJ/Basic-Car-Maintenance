@@ -11,5 +11,14 @@ service cloud.firestore {
       // Allow users to create vehicles if authenticated
       allow read, write: if true;
     }
+
+    // collection grouop query
+    match /{path=**}/maintenance_events/{events} {
+      allow read: if true;
+    }
+
+    match /{path=**}/odometer_readings/{readings} {
+      allow read: if true; 
+    }
   }
 }
